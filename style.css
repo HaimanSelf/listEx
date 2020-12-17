@@ -1,0 +1,17 @@
+:root {
+  --width: 350px;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.gridContainer {
+  width: var(--width);
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  
+  border: 2px solid darkorange;
+  border-radius: 10px;
+}
